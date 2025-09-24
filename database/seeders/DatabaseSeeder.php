@@ -25,6 +25,9 @@ class DatabaseSeeder extends Seeder
             AdminSeeder::class,
             UserDefaultRoleSeeder::class,
             QuoteSeeder::class,
+            ContentIndexSeeder::class,
+            ContentAboutSeeder::class,
+            ContentHowItWorksSeeder::class,
         ]);
     }
 }
